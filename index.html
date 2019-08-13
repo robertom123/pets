@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel = 'stylesheet' type = 'text/css' href="/style/style.css">
+</head>
+<body>
+
+    <header class = "title">
+        <h1>Pet Diary</h1>
+    </header>
+
+    <section class = "main-box">
+        <article class = "pic-box">
+            <section class = "main-pic-box">
+                <p><img id = "output" width="200" /></p>
+
+            </section>
+
+            <!----- Uploading Picture ----->
+            <section class = "submit-pic-box">
+                <input id = "file" type = "file" accept="image/*" name="image" style = "display: none;" />           
+                
+                <p><label for = "file" style = "cursor:pointer;">Upload Image</label></p>
+            </section>
+
+        </article>
+
+        <article class = "active-box">
+            <section class = "active-title">
+                <h3>My Activites for the day on:  </h3> 
+            </section>
+
+            <section class = active-date-box>
+
+            </section>
+        </article>
+
+        <article class = "pet-list" >Pet Actions</article>
+
+        <article class = "tweet-box">
+            Tweet
+        </article>
+
+
+    </section>
+
+
+
+    <script src="/script/script.js"></script>
+    
+</body>
+</html>
